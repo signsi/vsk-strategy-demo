@@ -1,0 +1,49 @@
+Version 2.4.0 - 24.09.2015 (HS 2015)
+------------------------------------------
+[#31] PMD auf Version 5.3.4 migriert (Bugfix)
+[#30] JavaDoc Target: Classpath nicht vollständig
+
+Version 2.4.0 - 20.09.2015 (HS 2015)
+------------------------------------------
+[#29] run-Target: Classpath mit Ivy-Compile-Deps fehlt.
+[#28] Ivy Dependency-Management integrieren
+
+Version 2.3.0 - 06.09.2015 (HS 2015)
+------------------------------------------ 
+[#26] QS-Reporter Task auf Version 1.0.2 migriert.
+[#22] Checkstyle auf Version 6.10.1 migriert.
+[#23] PMD auf Version 5.3.3 migriert.
+[#24] EqualsVerifier Version 1.7.5 ergänzt.
+[#20] Checkstyle Konfig umbenannt (Gradle-Kompatibilität).
+[#25] Log4J Version 2.3 als Dependency ergänzt.
+  
+Version 2.2.0 - 07.05.2015 (FS 2015)
+------------------------------------------ 
+- JaCoCo auf Version 0.7.4 migriert
+- Checkstyle auf Version 6.6 migriert
+- PMD auf Version 5.3.1 migriert
+
+Version 2.1.1 - 16.02.2015 (FS 2015)
+------------------------------------------ 
+- Checkstyle auf Version 6.3 migriert
+- Distribution der resource-Verzeichnisse korrigiert
+ 
+Version 2.1.0 - 30.01.2015 (FS 2015)
+------------------------------------------ 
+- JUnit auf Version 4.12 migriert
+- Classycle auf Version 1.4.2 migriert
+- Checkstyle auf Version 6.2 migriert
+- PMD auf Version 5.2.3 migriert
+
+Version 2.0.1 - 18.09.2015 (HS 2014)
+------------------------------------------ 
+- Bugfix für JaCoCo (0.7.2 für Lambdas)
+
+Version 2.0.0 - 06.09.2015 (HS 2014)
+------------------------------------------ 
+- resource-Verzeichnisse in main- und test-Baum
+- Rename: Verzeichnis 'cfg' neu 'config'
+- Rename: Verzeichnis 'target/junit' neu 'target/test' (Buildserver!)
+- Neues Target 'integration-test': Führt *IT.java benannte Integationstests aus.
+- Compiler mit 'listfiles' für IDE-Integation (Eclipse)
+- run-Target neu mit fork (wg. Security-Settings in IDEs)

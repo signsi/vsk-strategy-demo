@@ -12,8 +12,8 @@ public class DatumFormatter {
         DatumFormatter.format = format;
     }
 
-    public static DatumFormat getFormat() {
-        return DatumFormatter.format;
+    public static String getFormat() {
+        return DatumFormatter.format.getFull();
     }
 
     public static String formatDatum(Datum date) {

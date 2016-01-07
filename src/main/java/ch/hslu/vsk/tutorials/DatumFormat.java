@@ -5,6 +5,23 @@ package ch.hslu.vsk.tutorials;
  */
 public enum DatumFormat {
 
-    CH, US, ISO
+    CH("Schweiz","CH"),
+    US("Vereinigte Staaten von Amerika", "US"),
+    ISO("Internationale Standardisierungsorganisation", "ISO");
 
+    private final String full;
+    private final String abbr;
+
+    DatumFormat(final String full, final String abbr) {
+        this.full = full;
+        this.abbr = abbr;
+    }
+
+    public String getFull() {
+        return full;
+    }
+
+    public String getAbbr() {
+        return abbr;
+    }
 }

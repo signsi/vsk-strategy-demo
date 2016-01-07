@@ -11,6 +11,7 @@ public class Main {
         DatumFormatter.setFormat(DatumFormat.CH);
         String date = DatumFormatter.formatDatum(datum);
         System.out.println(date);
+        System.out.println(DatumFormatter.getFormat());
 
     }
 
